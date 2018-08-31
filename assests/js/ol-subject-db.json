@@ -1,0 +1,198 @@
+[
+  {
+    "tag": "english",
+    "subject": "English Language"
+  },
+  {
+    "tag": "english",
+    "subject": "Literature in English (2010)"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Bangladesh Studies"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Geography"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Global Perspectives"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Hinduism"
+  },
+  {
+    "tag": "humanities",
+    "subject": "History"
+  },
+  {
+    "tag": "humanities",
+    "subject": "History (Modern World Affairs)"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Islamic Religion and Culture"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Islamic Studies"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Islamiyat"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Pakistan Studies"
+  },
+  {
+    "tag": "humanities",
+    "subject": "Religious Studies"
+  },
+  {
+    "tag": "languages",
+    "subject": "Arabic"
+  },
+  {
+    "tag": "languages",
+    "subject": "Bengali"
+  },
+  {
+    "tag": "languages",
+    "subject": "French"
+  },
+  {
+    "tag": "languages",
+    "subject": "German"
+  },
+  {
+    "tag": "languages",
+    "subject": "Nepali"
+  },
+  {
+    "tag": "languages",
+    "subject": "Setswana"
+  },
+  {
+    "tag": "languages",
+    "subject": "Sinhala"
+  },
+  {
+    "tag": "languages",
+    "subject": "Spanish"
+  },
+  {
+    "tag": "languages",
+    "subject": "Swahili"
+  },
+  {
+    "tag": "languages",
+    "subject": "Tamil"
+  },
+  {
+    "tag": "languages",
+    "subject": "Urdu - First Language"
+  },
+  {
+    "tag": "languages",
+    "subject": "Urdu - Second Language"
+  },
+  {
+    "tag": "mathematics",
+    "subject": "Mathematics - Additional"
+  },
+  {
+    "tag": "mathematics",
+    "subject": "Mathematics D"
+  },
+  {
+    "tag": "mathematics",
+    "subject": "Statistics"
+  },
+  {
+    "tag": "science",
+    "subject": "Agriculture"
+  },
+  {
+    "tag": "science",
+    "subject": "Biology"
+  },
+  {
+    "tag": "science",
+    "subject": "Chemistry"
+  },
+  {
+    "tag": "science",
+    "subject": "Environmental Management"
+  },
+  {
+    "tag": "science",
+    "subject": "Food and Nutrition"
+  },
+  {
+    "tag": "science",
+    "subject": "Marine Science"
+  },
+  {
+    "tag": "science",
+    "subject": "Physics"
+  },
+  {
+    "tag": "science",
+    "subject": "Science - Combined"
+  },
+  {
+    "tag": "social sciences",
+    "subject": "Accounting"
+  },
+  {
+    "tag": "social sciences",
+    "subject": "Business Studies"
+  },
+  {
+    "tag": "social sciences",
+    "subject": "Commerce"
+  },
+  {
+    "tag": "social sciences",
+    "subject": "Commercial Studies"
+  },
+  {
+    "tag": "social sciences",
+    "subject": "Economics"
+  },
+  {
+    "tag": "social sciences",
+    "subject": "Principles of Accounts"
+  },
+  {
+    "tag": "social sciences",
+    "subject": "Sociology"
+  },
+  {
+    "tag": "social sciences",
+    "subject": "Travel and Tourism"
+  },
+  {
+    "tag": "technology",
+    "subject": "CDT: Design and Communication"
+  },
+  {
+    "tag": "technology",
+    "subject": "Computer Science"
+  },
+  {
+    "tag": "technology",
+    "subject": "Design and Technology"
+  },
+  {
+    "tag": "technology",
+    "subject": "Fashion and Textiles"
+  },
+  {
+    "tag": "arts",
+    "subject": "Art and Design (BD, MV, MU, PK)"
+  }
+]

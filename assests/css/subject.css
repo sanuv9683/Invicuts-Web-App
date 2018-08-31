@@ -1,0 +1,67 @@
+.hide {
+    display: none;
+}
+
+#main-tabs {
+    margin-top: 20px;
+}
+
+#exam-years-container {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#exam-years-container span {
+    padding: 10px;
+}
+
+#exam-papers > div {
+    margin-bottom: 20px;
+}
+
+#books-resources {
+    padding: 10px;
+}
+
+.pdf-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/pdf.png);
+    background-size: contain;
+}
+
+.group-paper {
+    padding-left: 10px;
+}
+
+.nav-link:hover {
+    background-color: #d1d0d4;
+    color: black;
+}
+
+.nav-link.active {
+    position: relative;
+    background-color: #81e7ff !important;
+}
+
+.nav-link.active::after {
+    content: "";
+    border-left: 15px solid rgba(0, 0, 0, 0);
+    border-top: 15px solid #81e7ff;
+    border-right: 15px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(100%);
+}
+
+@media all and (max-width: 330px){
+
+    .nav-link.active::after{
+        display: none;
+    }
+
+}
+

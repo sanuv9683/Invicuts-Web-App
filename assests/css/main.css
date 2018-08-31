@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous');
+
+*{
+    font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    /*background: #3C90B5 url() fixed 0 0;*/
+}
+
+.container{
+    position: relative;
+}
+
+header{
+    padding: 10px;
+}
+
+#title a, #ft-logo-container h1 a{
+    color: white !important;
+}
+
+#title a:hover, #ft-logo-container h1 a{
+    text-decoration: none;
+}
+
+#hdr-social-media-container{
+    padding-top: 15px;
+}
+
+.social-media-container{
+    text-align: right;
+    padding: 10px;
+}
+
+.social-media-container i{
+    padding-left: 10px;
+}
+
+.social-media-container a{
+    color: white;
+}
+
+.social-media-container a:hover{
+    color: #007bff;
+}
+
+main>div.container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+header,footer{
+    background-color: #333333;
+    color: white;
+}
+
+.main-nav-box{
+    position: relative;
+    background-color: #3C90B5;
+    padding: 30px 0;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-nav-box:hover{
+    text-shadow: 0 0 9px white;
+    background-color: #2a9ed2;
+}
+
+footer{
+    padding: 30px 0;
+}
+
+#ft-logo-container{
+    border-left: 1px solid #9b9b9b;
+}
+
+#ft-logo-container>*{
+    padding-left: 20px;
+}
+
+#advertisement{
+    border-left:1px solid rgba(51,50,79,0.13);
+}
+
+footer>div>div>div>span:last-child{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+@media all and (max-width: 768px){
+
+    header h1, #hdr-social-media-container{
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+@media all and (max-width: 992px){
+
+    footer{
+        text-align: center;
+    }
+
+    #ft-social-media-container{
+        text-align: center;
+        padding: 15px;
+    }
+
+    #ft-logo-container{
+        border: none;
+    }
+
+    #content{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #advertisement {
+        margin-top: 20px;
+        border-left: none;
+        border-top: 1px solid rgba(51, 50, 79, 0.13);
+    }
+
+}
