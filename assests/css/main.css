@@ -84,6 +84,10 @@ footer{
     border-left: 1px solid #9b9b9b;
 }
 
+#ft-logo-container>span{
+    font-size: 14px;
+}
+
 #ft-logo-container>*{
     padding-left: 20px;
 }

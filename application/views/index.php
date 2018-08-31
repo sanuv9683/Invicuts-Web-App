@@ -87,12 +87,12 @@
 				</div>
 
 				<!--				slider-->
-				<div class="jumbotron" style="margin-top:20px">
-				<h1 style="font-family: 'Roboto', sans-serif;font-size:35px">Welcome to Afterschools.lk</h1>
-				<p class="">
-					<span><strong>Invictus was established in 2015 In Panadura in order to supports the students who follows
-						English and literature subjects for local and international curriculum. “Invictus’ word’s origin is Latin and
-						means Unconquerable and the founder of INVICTUS Mr. Chathura sanjaya Wijenaike chose the name
+				<div class="jumbotron" style="margin-top:32px; margin-right: 5px;">
+				<h1 style="font-family: 'Roboto', sans-serif;font-size:35px; text-align: center;">Welcome to Invictus.edu.lk</h1>
+				<p class="" style="text-align: justify;">
+					<span><strong>Invictus was established in 2015 In Panadura in order to support the students who follow
+						English and Literature subjects for local and international curriculum. “Invictus’ word’s origin is Latin and
+						means Unconquerable and the founder of INVICTUS Mr. Chathura Sanjaya Wijenaike chose the name
 						inspired by a Victorian poem called Invictus written by William Henley. It was also the very poem which
 						inspired Nelson Mandela for presidency.</strong></span>
 					</p>
@@ -103,7 +103,7 @@
 						font-size:28px;
 					}
 					</style>
-					<div class="jumbotron">
+					<div class="jumbotron" style="margin-right: 5px;">
 					<h1 class="v">Our Vision</h2>
 					<p class="">
 					<span>To create a society with literature and ultimately a society of good values.</span>
@@ -356,7 +356,7 @@
 		<div class="row">
 			<div class="col col-12 col-lg-4">
                 <span>
-                    Copyright &copy; 2018 - Afterschools.lk
+                    Copyright &copy; 2018 - Invictus.edu.lk
                 </span>
 				<br>
 				<a href="about-us.html">About Us</a><br>
@@ -373,8 +373,8 @@
 				</div>
 			</div>
 			<div id="ft-logo-container" class="col col-12 col-lg-4">
-				<h1><a href="errors/index.html">AfterSchools.lk</a></h1>
-				<span>"Lorem ipsum dolor sit amet"</span>
+				<h1><a href="errors/index.html">Invictus.edu.lk</a></h1>
+				<span>I am the master of my fate, I am the captain of my soul</span>
 			</div>
 		</div>
 	</div>
