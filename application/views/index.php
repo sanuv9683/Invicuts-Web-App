@@ -256,56 +256,56 @@
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:240px;width:720px;height:480px;overflow:hidden;">
             <div>
-                <img data-u="image" src="img/004.jpg" />
-                <img data-u="thumb" src="img/004-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/a.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/a.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/005.jpg" />
-                <img data-u="thumb" src="img/005-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/b.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/b.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/006.jpg" />
-                <img data-u="thumb" src="img/006-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/c.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/c.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/007.jpg" />
-                <img data-u="thumb" src="img/007-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/d.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/d.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/008.jpg" />
-                <img data-u="thumb" src="img/008-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/e.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/e.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/009.jpg" />
-                <img data-u="thumb" src="img/009-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/f.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/f.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/010.jpg" />
-                <img data-u="thumb" src="img/010-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/g.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/g.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/013.jpg" />
-                <img data-u="thumb" src="img/013-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/h.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/h.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/014.jpg" />
-                <img data-u="thumb" src="img/014-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/i.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/i.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/015.jpg" />
-                <img data-u="thumb" src="img/015-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/j.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/j.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/016.jpg" />
-                <img data-u="thumb" src="img/016-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/k.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/k.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/017.jpg" />
-                <img data-u="thumb" src="img/017-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/l.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/l.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/018.jpg" />
-                <img data-u="thumb" src="img/018-s99x66.jpg" />
+                <img data-u="image" src="<?php echo base_url() ?>assests/img/m.jpg" />
+                <img data-u="thumb" src="<?php echo base_url() ?>assests/img/m.jpg" />
             </div>
         </div>
         <!-- Thumbnail Navigator -->
