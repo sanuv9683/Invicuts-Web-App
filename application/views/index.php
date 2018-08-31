@@ -51,7 +51,7 @@
 
 			</div>
 
-			<div id="content" class="col col-12 col-lg-10">
+			<div id="content" class="col col-12 col-lg-10" style="margin-top:5px;">
 				<!-- Content change with the page here-->
 				<!--				slider-->
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -138,13 +138,32 @@
 							<li>DIP in Customer service (IATA)</li>
 						<ul>
 					</dl>
-					</div>
+                    </div>
+                    
+                    <style>
+
+                        @media all and (max-width: 992px){
+                            #abc{
+                                margin-right: 0px !important;
+                                padding: 0 10px 0;
+                            }
+
+                            #bcd{
+                                text-align: center !important;
+                            }
+
+                            #bcd+p{
+                                text-align: center !important;
+                            }
+                        }
+
+                    </style>
 
 
 
-                    <div style="margin-top:15px;">
+                    <div  style="margin-top:15px;">
                         <h4>Our Journey - English Literature - Performance</h4>
-                        <div class="row" style="margin-right:35px;">
+                        <div id="abc" class="row" style="margin-right:35px;">
                             <div class="col col-12 col-lg-6">
                                 <img style="height:400px;" src="<?php echo base_url() ?>assests/img/chart.png">
                             </div>
@@ -157,7 +176,7 @@
                                 <p>
                                 The graph will breif us that year by year mildly elvated the performance of the students.
                                 </p>
-                                <h5 style="text-align: right; padding: 35px;padding-bottom: 10px;">
+                                <h5 id="bcd" style="text-align: right; padding: 35px;padding-bottom: 10px;">
                                     "Our definition of success speaks volumes about who we are now"
                                 </h5>
                                 <p style="text-align: right; padding-right: 35px;"> - Michale Kandy - </p>
