@@ -10,11 +10,19 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
 		  integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" rel="script" src="<?php echo base_url() ?>assests/boosjs/jquery-3.3.1.min.js"></script>
 	<style>
 		#content{
 			padding: 0px;
-		}
+        }
+        
+        .jumbotron{
+            margin-bottom: 0;
+            margin-top: 10px;
+            background-color:  #e8f3ff !important;
+            padding: 20px;
+        }
 	</style>
 </head>
 <body>
@@ -87,43 +95,40 @@
 				</div>
 
 				<!--				slider-->
-				<div class="jumbotron" style="margin-top:32px; margin-right: 5px;">
+				<div class="jumbotron" style="margin-top:10px; margin-right: 5px;">
 				<h1 style="font-family: 'Roboto', sans-serif;font-size:35px; text-align: center;">Welcome to Invictus.edu.lk</h1>
 				<p class="" style="text-align: justify;">
-					<span><strong>Invictus was established in 2015 In Panadura in order to support the students who follow
+					<span>Invictus was established in 2015 In Panadura in order to support the students who follow
 						English and Literature subjects for local and international curriculum. “Invictus’ word’s origin is Latin and
 						means Unconquerable and the founder of INVICTUS Mr. Chathura Sanjaya Wijenaike chose the name
 						inspired by a Victorian poem called Invictus written by William Henley. It was also the very poem which
-						inspired Nelson Mandela for presidency.</strong></span>
+						inspired Nelson Mandela for presidency.</span>
 					</p>
 					</div>
 					<style>
 					.v{
 						font-family: 'Roboto', sans-serif;
-						font-size:28px;
 					}
 					</style>
 					<div class="jumbotron" style="margin-right: 5px;">
-					<h1 class="v">Our Vision</h2>
+					<h6 class="v">Our Vision</h6>
 					<p class="">
 					<span>To create a society with literature and ultimately a society of good values.</span>
 					</p>
-					<h1 class="v">Our Mission</h2>
+					<h6 class="v">Our Mission</h6>
 					<p>
-					<span>Making the children avid readers, great writers and brilliant speakers most of all sensitive and careful
-					listeners</span>
+					<span>Making the children avid readers, great writers and brilliant speakers most of all sensitive and careful listeners.</span>
 					</p>
-					<h1 class="v">Our Motto</h2>
+					<!-- <h1 class="v">Our Motto</h2>
 					<p>
 					<span>I am the master of my fate <br>
 						I am the captain of my soul</span>
-					</p>
+					</p> -->
 
-					<h1 class="v">Our Staff</h1>
+					<h6 class="v">Our Staff</h6>
 					<dl>
-						<dt>Managing Director and Chief Lecturer</dt>
+						<dt>Chathura Sanjaya Wijayanayake - Managing Director and Chief Lecturer</dt>
 						<ul>
-							<li>Chathura Sanjaya Wijayanayake</li>
 							<li>BA (USJP)</li>
 							<li>MA Linguistics (UCMB))</li>
 							<li>NDE (SLIATE)</li>
@@ -137,7 +142,28 @@
 
 
 
-
+                    <div style="margin-top:15px;">
+                        <h4>Our Journey - English Literature - Performance</h4>
+                        <div class="row" style="margin-right:35px;">
+                            <div class="col col-12 col-lg-6">
+                                <img style="height:400px;" src="<?php echo base_url() ?>assests/img/chart.png">
+                            </div>
+                            <div class="col col-12 col-lg-6">
+                                <p>
+                                As a institute, we started our journey in 2015. Since then we never looked back, we continously delivered thousands of 
+                                English qualified students to the nation. As we know the hardest part of the London Cambridge Ordinary Level is to get high marks for the English Litreature,
+                                however institute like invictus could able to overcome all the barriers.  
+                                </p>
+                                <p>
+                                The graph will breif us that year by year mildly elvated the performance of the students.
+                                </p>
+                                <h5 style="text-align: right; padding: 35px;padding-bottom: 10px;">
+                                    "Our definition of success speaks volumes about who we are now"
+                                </h5>
+                                <p style="text-align: right; padding-right: 35px;"> - Michale Kandy - </p>
+                            </div>
+                        </div>
+                    </div>
 
 
 
@@ -165,7 +191,7 @@
             ];
 
             var jssor_1_options = {
-              $AutoPlay: 1,
+              $AutoPlay: 0,
               $SlideshowOptions: {
                 $Class: $JssorSlideshowRunner$,
                 $Transitions: jssor_1_SlideshowTransitions,
@@ -188,7 +214,8 @@
 
             /*#region responsive code begin*/
 
-            var MAX_WIDTH = 960;
+            var MAX_WIDTH = $(document).width() - $("#content").position().left - 5;
+            // alert($("#content").position().left);
 
             function ScaleSlider() {
                 var containerElement = jssor_1_slider.$Elmt.parentNode;
@@ -249,7 +276,8 @@
         .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
         .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
     </style>
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:960px;height:480px;overflow:hidden;visibility:hidden;background-color:#24262e;">
+    <!-- <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:960px;height:480px;overflow:hidden;visibility:hidden;background-color:#24262e;"> -->
+    <div id="jssor_1" style="position:relative;top:0px;left:0px;height:480px;overflow:hidden;visibility:hidden;background-color:#24262e;">
         <!-- Loading Screen -->
         <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
             <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
@@ -337,7 +365,14 @@
             </svg>
         </div>
     </div>
-    <script type="text/javascript">jssor_1_slider_init();</script>
+
+    <script type="text/javascript">
+        // var options= {
+        //     $SlideWidth : 500,
+        //     $AutoPlay:0
+        // };
+        jssor_1_slider_init();
+    </script>
     <!-- #endregion Jssor Slider End -->
 
 
@@ -351,7 +386,7 @@
 </main>
 
 
-<footer>
+<footer style="margin-top: 32px;">
 	<div class="container">
 		<div class="row">
 			<div class="col col-12 col-lg-4">
@@ -379,7 +414,7 @@
 		</div>
 	</div>
 </footer>
-<script type="text/javascript" rel="script" src="<?php echo base_url() ?>assests/boosjs/jquery-3.3.1.min.js"></script>
+
 <script type="text/javascript" rel="script" src="<?php echo base_url() ?>assests/boosjs/bootstrap.min.js"></script>
 <script type="text/javascript" rel="script" src="<?php echo base_url() ?>assests/js/jssor.slider-27.4.0.min.js"></script>
 <!--<script src="--><?php //echo base_url() ?><!--assests/js/jquery.js"></script>-->
@@ -418,6 +453,7 @@
 			scrollTop: "0px"
 		}, 300);
 	});
+  
 
 </script>
 </body>
